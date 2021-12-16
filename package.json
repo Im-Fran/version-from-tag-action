@@ -1,0 +1,21 @@
+{
+  "name": "version-from-tag-action",
+  "version": "1.0.0",
+  "description": "Save the version from the tag in the environment variables",
+  "main": "dist/index.js",
+  "scripts": {},
+  "keywords": [
+    "version",
+    "tag",
+    "action",
+    "github",
+    "github-actions",
+    "github-actions-version-from-tag"
+  ],
+  "author": "Im-Fran",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}

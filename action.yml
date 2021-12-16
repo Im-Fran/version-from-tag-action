@@ -1,0 +1,14 @@
+name: 'version-from-tag-action'
+description: 'Get version from tag and store it to the environment variables.'
+inputs:
+  remove-first-character:
+    required: false
+    default: 'none'
+    description: 'Remove first character from version.'
+  version-variable-name:
+    required: false
+    default: 'VERSION'
+    description: 'Environment variable name to store version.'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
