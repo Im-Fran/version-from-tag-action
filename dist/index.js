@@ -8450,10 +8450,10 @@ try {
         const tagName = process.env.GITHUB_REF_NAME
         const removeFirstCharacter = core.getInput('remove-first-character') || 'none'
         const variableName = core.getInput('version-variable-name') || 'VERSION'
-        let version = ''
+        let version;
         if(removeFirstCharacter !== 'none') {
             const indexOf = tagName.indexOf(removeFirstCharacter)
-            version = tagName.substring(indexOf, indexOf + removeFirstCharacter.length)
+            version = tagName.slice(0, indexOf) + tagName.slice(indexOf + removeFirstCharacter.length, tagName.length)
         }else{
             version = tagName
         }

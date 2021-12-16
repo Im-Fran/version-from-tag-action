@@ -9,7 +9,7 @@ try {
         let version;
         if(removeFirstCharacter !== 'none') {
             const indexOf = tagName.indexOf(removeFirstCharacter)
-            version = tagName.substring(indexOf, indexOf + removeFirstCharacter.length)
+            version = tagName.slice(0, indexOf) + tagName.slice(indexOf + removeFirstCharacter.length, tagName.length)
         }else{
             version = tagName
         }
