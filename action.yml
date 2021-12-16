@@ -1,5 +1,8 @@
 name: 'version-from-tag-action'
 description: 'Get version from tag and store it to the environment variables.'
+branding:
+  icon: 'bookmark'
+  color: 'gray-dark'
 inputs:
   remove-first-character:
     required: false
