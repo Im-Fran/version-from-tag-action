@@ -1,9 +1,8 @@
 {
   "name": "version-from-tag-action",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Save the version from the tag in the environment variables",
   "main": "dist/index.js",
-  "scripts": {},
   "keywords": [
     "version",
     "tag",
@@ -17,5 +16,6 @@
   "dependencies": {
     "@actions/core": "^1.6.0",
     "@actions/github": "^5.0.0"
-  }
+  },
+  "packageManager": "yarn@3.2.4"
 }

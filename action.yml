@@ -13,5 +13,5 @@ inputs:
     default: 'VERSION'
     description: 'Environment variable name to store version.'
 runs:
-  using: 'node12'
+  using: 'node16'
   main: 'dist/index.js'
