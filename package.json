@@ -1,6 +1,6 @@
 {
   "name": "version-from-tag-action",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Save the version from the tag in the environment variables",
   "main": "dist/index.js",
   "keywords": [
